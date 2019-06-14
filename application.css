@@ -451,12 +451,12 @@ footer {
                 height: 16px;
                 border: 2px solid #FFF;
                 border-radius: 20px;
-                background-color: transparent;
+                background-color: #000;
                 font-size: 0;
             }
         }
         .slick-active button {
-            background-color: #000;
+            background-color: $primary;
         }
     }
 }
