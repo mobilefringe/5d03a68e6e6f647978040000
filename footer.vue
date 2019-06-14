@@ -41,7 +41,7 @@
                             <a :href="item.link" target="_blank">
                                 <div class="insta-feed-background" v-bind:style="{ backgroundImage: 'url(' + item.images.standard_resolution.url + ')' }" ></div>
                                 <!--<img :src="item.images.low_resolution.url" :alt="item.id"/>-->
-                                <span class="visibiltyhidden">Instagram feed</span>
+                                <span class="visibilityhidden">Instagram feed</span>
                             </a>
                         </div>
                     </div> 
