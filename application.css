@@ -427,7 +427,7 @@ footer {
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 50%;
-        background-color: #fff;
+        background-color: #000;
     }
     .slick-dots {
         margin: 0;
