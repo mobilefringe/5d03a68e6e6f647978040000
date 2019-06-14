@@ -90,7 +90,7 @@ require(['Vue', 'vuex', 'vue2-filters', 'vue_router', 'routes', 'vuex-router-syn
                     {
                         name: "About",
                         id: "menu1",
-                        // href: "",
+                        href: "",
                         sub_menu: [
                             // {
                             //     name: "Services",
