@@ -19,7 +19,7 @@
                                 {{ property.city }}, {{ property.province_state }} <br>
                                 {{ property.postal_code }}
                             </p>
-                            <a class="animated_btn" :href="siteInfo.googleMapsURL" target="_blank">Driving Direction</a>  
+                            <!--<a class="animated_btn" :href="siteInfo.googleMapsURL" target="_blank">Driving Direction</a>  -->
                         </div>
                         <div class="details_col_9">
                             <p class="inside_page_link">Be the first to know about upcoming events and special announcements from {{ property.name }}!</p>
