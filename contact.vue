@@ -27,17 +27,17 @@
                                     </div>
                                     <div class="col-xs-12 col-md-6 margin_20" :class="{'has-error': errors.has('email')}">
                                         <label for="email">Email</label>
-                                        <input v-model="form_data.email" v-validate="'required|email'" class="form-control" :class="{'input': true}" name="email" type="email" data-vv-delay="1000">
+                                        <input v-model="form_data.email" id="email" v-validate="'required|email'" class="form-control" :class="{'input': true}" name="email" type="email" data-vv-delay="1000">
                                         <span v-show="errors.has('email')" class="form-control-feedback">{{ errors.first('email') }}</span>
                                     </div>
                                     <div class="col-xs-12 margin_20" :class="{'has-error': errors.has('subject')}">
                                         <label for="subject">Subject</label>
-                                        <input v-model="form_data.subject" v-validate="'required:true'" class="form-control" :class="{'input': true}" name="subject" type="text" data-vv-delay="1000">
+                                        <input v-model="form_data.subject" id="subject" v-validate="'required:true'" class="form-control" :class="{'input': true}" name="subject" type="text" data-vv-delay="1000">
                                         <span v-show="errors.has('subject')" class="form-control-feedback">{{ errors.first('subject') }}</span>
                                     </div>
                                     <div class="col-xs-12 margin_20" :class="{'has-error': errors.has('message')}">
                                         <label for="message">Message</label>
-                                        <textarea v-model="form_data.message" v-validate="'required:true'" class="form-control" :class="{'input': true}" name="message" type="text" data-vv-delay="1000"></textarea>
+                                        <textarea v-model="form_data.message" id="message" v-validate="'required:true'" class="form-control" :class="{'input': true}" name="message" type="text" data-vv-delay="1000"></textarea>
                                         <span v-show="errors.has('message')" class="form-control-feedback">{{ errors.first('message') }}</span>
                                     </div>
                                     <div class="col-xs-12">
