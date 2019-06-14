@@ -456,7 +456,7 @@ footer {
             }
         }
         .slick-active button {
-            background-color: #fff;
+            background-color: $primary;
         }
     }
 }
